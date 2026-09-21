@@ -1,0 +1,4 @@
+split,total_rows,vulnerable_rows,benign_rows,other_target_rows,rows_with_cwe,rows_missing_cwe,rows_with_one_cwe,rows_with_multiple_cwes,vulnerable_rows_with_cwe,vulnerable_rows_missing_cwe,vulnerable_rows_with_one_cwe,vulnerable_rows_with_multiple_cwes,unique_vulnerable_cwes
+train,175797,4862,170935,0,156948,18849,156948,0,4862,0,4862,0,119
+valid,23948,593,23355,0,21946,2002,21946,0,593,0,593,0,70
+test,24788,549,24239,0,22272,2516,22272,0,549,0,549,0,69

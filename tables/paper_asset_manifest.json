@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "policy": "paper table formats, five-model aggregation",
+  "source": "results/five_model_test_results.csv",
+  "source_sha256": "0140a0a99759e7b26cc8fe06e5b534e7e0cc302f09c5d1a9e260686d1c4f77b7",
+  "test_cells": 5250,
+  "model_families": [
+    "logistic_regression",
+    "linear_svm",
+    "random_forest",
+    "lightgbm",
+    "codebert"
+  ],
+  "generated_outputs": {
+    "tables/tab_clean_train_test_joint_seed_aware.tex": {
+      "bytes": 5072,
+      "sha256": "574ff86c244501ddd561682b465f9eb19f42b20a004ec4f4f8f231f4f6ad0d6b"
+    },
+    "tables/tab_noise_test_endpoint_interactions_seed_aware.tex": {
+      "bytes": 2585,
+      "sha256": "fa5a5374753ff3e91decfb792ad66b8bba1fc43fb5bdc2594b234f72dd10ea05"
+    },
+    "tables/tab_clean_train_test_joint_seed_aware.csv": {
+      "bytes": 29945,
+      "sha256": "7dc3e8e3a01828f62e68e5949a7d5498d7aa869b2751068e6fa66306383144b3"
+    },
+    "tables/tab_noise_test_endpoint_interactions_seed_aware.csv": {
+      "bytes": 43392,
+      "sha256": "77def70d2e99b49033a7e054747f9c99a13529eb30bfceb39847ac5b8543ee96"
+    }
+  },
+  "paper_values": {
+    "paired_flip_20_overall_delta_mcc": -0.222327557954573,
+    "paired_flip_20_overall_delta_pr_auc": -0.17557091702876143,
+    "paired_flip_20_worst_mcc_cells": 30,
+    "paired_flip_20_worst_pr_auc_cells": 30,
+    "clean_75_25_test_50_50_precision": 0.8668973020593022,
+    "clean_75_25_test_90_10_precision": 0.40021026456909536,
+    "clean_75_25_test_50_50_pr_auc": 0.8833049180530143,
+    "clean_75_25_test_90_10_pr_auc": 0.5266633695356073,
+    "clean_75_25_test_50_50_mcc": 0.5863003187757944,
+    "clean_75_25_test_90_10_mcc": 0.44826119034977535,
+    "paired_flip_20_train_60_40_test_90_10_delta_mcc": -0.06458947301547248,
+    "paired_flip_20_train_90_10_test_90_10_delta_mcc": -0.5045908508243573,
+    "paired_flip_20_excluding_train_90_10_delta_mcc": -0.13320795977363792
+  }
+}

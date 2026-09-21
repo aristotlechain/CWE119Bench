@@ -1,0 +1,79 @@
+{
+  "cell_count_formula": "5 models x 5 train ratios x 6 test ratios x 5 dataset seeds x 7 conditions = 5,250",
+  "factor_domains": {
+    "condition": [
+      "clean",
+      "random_flip_10",
+      "random_flip_20",
+      "random_fp_10",
+      "random_fp_20",
+      "heuristic_fp_10",
+      "heuristic_fp_20"
+    ],
+    "dataset_seed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model_family": [
+      "logistic_regression",
+      "linear_svm",
+      "random_forest",
+      "lightgbm",
+      "codebert"
+    ],
+    "test_ratio": [
+      "50/50",
+      "60/40",
+      "70/30",
+      "75/25",
+      "80/20",
+      "90/10"
+    ],
+    "train_ratio": [
+      "60/40",
+      "70/30",
+      "75/25",
+      "80/20",
+      "90/10"
+    ]
+  },
+  "normalization": {
+    "removed_constant_columns": [
+      "stage",
+      "split",
+      "selected_hyperparams"
+    ],
+    "removed_run_metadata": [
+      "run_name",
+      "elapsed_seconds"
+    ],
+    "selected_hyperparameter_value": "coalesces the classical C field and CodeBERT hyperparameter_value field"
+  },
+  "paper_title": "CWE119Bench: Evaluating Label Noise and Class Imbalance in Vulnerability Detection",
+  "primary_result": {
+    "columns": 28,
+    "path": "results/five_model_test_results.csv",
+    "rows": 5250,
+    "sha256": "0140a0a99759e7b26cc8fe06e5b534e7e0cc302f09c5d1a9e260686d1c4f77b7",
+    "size_bytes": 1580309
+  },
+  "schema_version": 1,
+  "source_evidence": {
+    "classical_combined_test": {
+      "path": "results/model_experiments/analysis/cwe119_true_pr_auc_validation_v1/combined_test_results_true_pr_auc_v1.csv",
+      "sha256": "ab0c97f863ae9aa81eb5e5656df12b0d4a6f4a36e56105049d21a12705da6d12"
+    },
+    "codebert_metrics": {
+      "path": "results/model_experiments/codebert_balanced_ratio_preserved_noise_mcc_selected_true_pr_auc_v1/metrics.csv",
+      "sha256": "60f2ed99e34f29ff6e550bab63375ec940e3aea2f1655b980689b0eb30084be5"
+    }
+  },
+  "status": "complete_compact_release",
+  "validation": {
+    "missing_metric_values": 0,
+    "unique_factor_cells": true
+  }
+}

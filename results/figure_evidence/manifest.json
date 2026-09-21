@@ -1,0 +1,45 @@
+{
+  "aggregation": {
+    "overall_figure": "Within each dataset seed and noise condition, average 5 model families x 5 train ratios x 6 test ratios = 150 matched noisy-minus-clean cells. then report mean and sample SD across five dataset seeds.",
+    "paired_flip_figure": "Within each dataset seed, paired-flip condition, train ratio, and test ratio, average exactly five model families. Then report the mean across five seeds."
+  },
+  "generated_evidence_files": {
+    "overall_five_model_seed_means.csv": {
+      "sha256": "91683f883275c322bf4362921712ff6a7f754b69847871bc19121b004e84a704",
+      "size_bytes": 3789
+    },
+    "overall_five_model_summary.csv": {
+      "sha256": "9e28b951f2e1f6f1437902e6dc8f31d69ae9bf1ee635892295d55ab3d8ca3a31",
+      "size_bytes": 2993
+    },
+    "paired_flip_grid_five_model_seed_means.csv": {
+      "sha256": "cfa30c8d3c4c7ee3ab46171e295dd9bd6deb6813c521298b3fcaa08307760a0d",
+      "size_bytes": 40788
+    },
+    "paired_flip_grid_five_model_summary.csv": {
+      "sha256": "98e07fc00013fdf659d1465af51848aee4ad84014de6ccfa55792eeb5f157cad",
+      "size_bytes": 27400
+    }
+  },
+  "generated_figure_files": {
+    "figures/fig_noise_effects_seed_aware_true_pr_auc.pdf": {
+      "sha256": "0c78383dce99159bc8c029b49e55c06f0883483409e499371ee7b8cfa30132cd",
+      "size_bytes": 33613
+    },
+    "figures/fig_paired_flip_train_test_interaction_true_pr_auc.pdf": {
+      "sha256": "d61e98ac4d0c5780326b35b4b16a9ac226dd7fe16f3acd7e4b81d98e2e311a2a",
+      "size_bytes": 28136
+    },
+    "figures/fig_rf_pr_by_train_ratio_all_conditions_seed_aware.pdf": {
+      "sha256": "370c9113a667c845a7cd44673d376d70729e92d7842356e28b7ca5e92a369692",
+      "size_bytes": 37522
+    }
+  },
+  "input_test_results": {
+    "path": "results/five_model_test_results.csv",
+    "rows": 5250,
+    "sha256": "0140a0a99759e7b26cc8fe06e5b534e7e0cc302f09c5d1a9e260686d1c4f77b7"
+  },
+  "purpose": "Generate the five-model aggregate figures in the paper format",
+  "status": "complete"
+}

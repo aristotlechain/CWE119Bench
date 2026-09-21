@@ -1,0 +1,24 @@
+{
+  "checkpoint_reload_tolerance": 1e-06,
+  "completed_groups": 175,
+  "counts": {
+    "test_cells": 1050,
+    "test_score_rows": 98700,
+    "validation_cells": 175,
+    "validation_score_rows": 16555
+  },
+  "evaluation_scope": "full_matrix",
+  "metric_tolerance": 1e-10,
+  "missing_groups": [],
+  "note": "The complete run was independently validated before compact packaging. Per-example scores and checkpoints are not stored in the Git repository.",
+  "omitted_prediction_scores_sha256": "a4e0732f4444749292f7484ab6bec967293e12dd4bcf9a17bcc31006d369ff82",
+  "original_validator_status": "full_passed",
+  "published_file_sha256": {
+    "metrics.csv": "60f2ed99e34f29ff6e550bab63375ec940e3aea2f1655b980689b0eb30084be5",
+    "selected_hyperparameters.csv": "e11a81713042c266f57caeed3372214133300d3486979fcbfdf3ea23faf9aae4",
+    "validation_history.csv": "342bbb2d6e3962b91fcb3690595c2cc2657f2c3e181867b7ab237db01bed2e42"
+  },
+  "report_version": "codebert_validation_v1",
+  "status": "complete_run_validated_before_packaging",
+  "unfinished_groups": []
+}

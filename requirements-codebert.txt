@@ -1,0 +1,5 @@
+# Install a CUDA-enabled PyTorch build compatible with the local GPU first.
+transformers==4.38.2
+tokenizers==0.15.2
+huggingface-hub==0.34.1
+safetensors==0.7.0
