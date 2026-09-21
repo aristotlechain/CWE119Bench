@@ -81,7 +81,7 @@ PR-AUC denotes trapezoidal area under the full precision-recall curve. Average p
 
 ## Scope
 
-The benchmark studies CWE-119 within PrimeVul under controlled synthetic label perturbations. The five dataset seeds reuse the same vulnerable validation and test functions, and CodeBERT uses one fixed optimization seed. The results therefore describe this controlled design. They are not evidence for all CWEs, all vulnerability datasets, or all neural training configurations.
+The benchmark studies CWE-119 within PrimeVul under controlled synthetic label perturbations. The five dataset seeds reuse the same vulnerable validation and test functions, and CodeBERT uses one fixed optimization seed. The results therefore describe this controlled design.
 
 ## External resources
 
