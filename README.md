@@ -92,4 +92,4 @@ The benchmark studies CWE-119 within PrimeVul under controlled synthetic label p
 
 
 ## References
-[1] 
+[1] Savvy Sharma and Paula Branco "CWE119Bench: Evaluating Label Noise and Class Imbalance in Vulnerability Detection." International Symposium on Foundations and Practice of Security. Cham: Springer Nature Switzerland, 2026. (accepted, to appear)
