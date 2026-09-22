@@ -1,6 +1,6 @@
 # CWE119Bench
 
-CWE119Bench is the companion implementation and result artifact for **“CWE119Bench: Evaluating Label Noise and Class Imbalance in Vulnerability Detection.”** It constructs controlled CWE-119 benchmarks from PrimeVul, perturbs training labels under six noise conditions, and evaluates four TF-IDF classifiers and a fully fine-tuned CodeBERT model.
+CWE119Bench is the implementation and result artifact for **“CWE119Bench: Evaluating Label Noise and Class Imbalance in Vulnerability Detection.”**[1] It constructs controlled CWE-119 benchmarks from PrimeVul, perturbs training labels under six noise conditions, and evaluates four TF-IDF classifiers and a fully fine-tuned CodeBERT model.
 
 The experiment preserves PrimeVul's temporal train, validation, and test boundaries. Training and validation ratios are 60:40, 70:30, 75:25, 80:20, and 90:10 benign:vulnerable. Testing additionally includes 50:50. Validation and test labels remain clean in every condition.
 
@@ -88,3 +88,8 @@ The benchmark studies CWE-119 within PrimeVul under controlled synthetic label p
 - [PrimeVul dataset](https://huggingface.co/datasets/colin/PrimeVul)
 - [PrimeVul source repository](https://github.com/DLVulDet/PrimeVul)
 - [Microsoft CodeBERT model](https://huggingface.co/microsoft/codebert-base)
+
+
+
+## References
+[1] 
